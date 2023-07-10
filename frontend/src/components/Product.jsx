@@ -48,9 +48,9 @@ import {
                   bg: "blue.500"
                 }}
               >
-                Create Project
+                Create account
               </Button>
-              <Button rounded={"full"}>How It Works</Button>
+              <Button rounded={"full"}>Get the app</Button>
             </Stack>
           </Stack>
         </Flex>
