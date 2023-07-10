@@ -64,14 +64,14 @@ import {
     )
   }
   
-  const TestimonialAvatar = ({ src, name, title }) => {
+  const TestimonialAvatar = ({ src, name, country }) => {
     return (
       <Flex align={"center"} mt={10} direction={"column"}>
         <Avatar src={src} alt={name} mb={2} />
         <Stack spacing={-1} align={"center"}>
           <Text fontWeight={600}>{name}</Text>
           <Text fontSize={"sm"} color={useColorModeValue("gray.600", "gray.400")}>
-            {title}
+            {country}
           </Text>
         </Stack>
       </Flex>
@@ -84,7 +84,7 @@ import {
         <Container maxW={"7xl"} py={36} as={Stack} spacing={70}>
           <Stack spacing={3} align={"center"}>
             <Heading>Our Clients Speak</Heading>
-            <Text>We have been working with clients around the world</Text>
+            <Text>We are helping thousands of people all over the world cook better, save more and waste less.</Text>
           </Stack>
           <Stack
             direction={{ base: "column", md: "row" }}
@@ -92,50 +92,50 @@ import {
           >
             <Testimonial>
               <TestimonialContent>
-                <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
+                <TestimonialHeading>Efficient App</TestimonialHeading>
                 <TestimonialText>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                  neque sed imperdiet nibh lectus feugiat nunc sem.
+                  Thank you for this application that helps me avoid wasting food.
+                  This will change my cooking habits.
                 </TestimonialText>
               </TestimonialContent>
               <TestimonialAvatar
                 src={
                   "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
                 }
-                name={"Jane Cooper"}
-                title={"CEO at ABC Corporation"}
+                name={"Nadia"}
+                country={"France"}
               />
             </Testimonial>
             <Testimonial>
               <TestimonialContent>
                 <TestimonialHeading>Intuitive Design</TestimonialHeading>
                 <TestimonialText>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                  neque sed imperdiet nibh lectus feugiat nunc sem.
+                  This is a very straightforward app for making recipies out of ingredients 
+                  you have and it's the best one I have tried so far.
                 </TestimonialText>
               </TestimonialContent>
               <TestimonialAvatar
                 src={
                   "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
                 }
-                name={"Jane Cooper"}
-                title={"CEO at ABC Corporation"}
+                name={"Sara"}
+                country={"Spain"}
               />
             </Testimonial>
             <Testimonial>
               <TestimonialContent>
                 <TestimonialHeading>Mindblowing Service</TestimonialHeading>
                 <TestimonialText>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                  neque sed imperdiet nibh lectus feugiat nunc sem.
+                  First app to ever offer me exactly what I was looking for, recipies for what I have in stock.
+                  
                 </TestimonialText>
               </TestimonialContent>
               <TestimonialAvatar
                 src={
                   "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
                 }
-                name={"Jane Cooper"}
-                title={"CEO at ABC Corporation"}
+                name={"Alessandra"}
+                country={"Italy"}
               />
             </Testimonial>
           </Stack>
