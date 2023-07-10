@@ -257,7 +257,7 @@ import { Link } from "react-router-dom";
   const NAV_ITEMS = [
     {
       label: "Home",
-      href: "#"
+      href: "#product"
     },
     {
       label: "Benefits",
