@@ -1,9 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Product from "./Product";
-import Testimonials from "./Testimonials";
-import Waste from "./Waste";
-import Contact from "./Contact";
+import Navbar from "./homepage-components/Navbar";
+import Product from "./homepage-components/Product";
+import Benefits from "./homepage-components/Benefits";
+import Features from "./homepage-components/Features";
+import Reviews from "./homepage-components/Reviews";
+import Waste from "./homepage-components/Waste";
+import Press from "./homepage-components/Press";
+import Contact from "./homepage-components/Contact";
 import Footer from "./Footer";
 
 const HomePage = () => {
@@ -11,8 +14,11 @@ const HomePage = () => {
         <>
             <Navbar></Navbar>
             <Product></Product>
+            <Benefits></Benefits>
+            <Features></Features>
             <Waste></Waste>
-            <Testimonials></Testimonials>
+            <Reviews></Reviews>
+            <Press></Press>
             <Contact></Contact>
             <Footer></Footer>
         </>
